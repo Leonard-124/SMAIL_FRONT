@@ -12,18 +12,15 @@ interface ProductProps {
 }
 const Product = (props: ProductProps) => {
     const addToCart = useCartStore((state) => state.addToCart);
-  return (
-    <div>
-        <h2>Products</h2>
-        {products.map((p) => (
-            <div key={p.id}>
-                {p.name} - ${p.price}
-                <button onClick={() =>addToCart(p)}>Add to Cart</button>
+    return (
+        <div>
+            <h2>Product</h2>
+            <div key={props.id}>
+                {props.name} - ${props.price}
+                <button onClick={() => addToCart({ ...props, price: Number(props.price) })}>Add to Cart</button>
             </div>
-        ))}
-      
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Product

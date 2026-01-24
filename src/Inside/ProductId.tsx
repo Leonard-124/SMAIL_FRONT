@@ -4,15 +4,15 @@ import useCartStore from "../useCartStore"
 import Navbar from "./Navbar"
 import { Link } from "react-router-dom"
 
-type ItemType = {
-  id: number
-  category: string
-  price?: number | string
-  image: string
-  name: string
-  quantity: number
-  description: string
-}
+// type ItemType = {
+//   id: number
+//   category: string
+//   price?: number | string
+//   image: string
+//   name: string
+//   quantity: number
+//   description: string
+// }
 
 const ProductId = () => {
   const { id } = useParams()
@@ -55,7 +55,7 @@ const ProductId = () => {
                 addToCart({
                   id: product.id,
                   name: product.name,
-                  price: product.price,
+                  price: Number(product.price),
                   image: product.image,
                 })
               }

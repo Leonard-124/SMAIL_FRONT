@@ -16,7 +16,10 @@ type ItemType = {
 
 const Category = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("All")
-  const items: ItemType[] = Items
+  const items: ItemType[] = Items.map(item => ({
+    ...item,
+    price: typeof item.price === 'string' ? parseFloat(item.price) : item.price
+  }))
 
   // ✅ derive categories dynamically
   const categories = useMemo(() => {
