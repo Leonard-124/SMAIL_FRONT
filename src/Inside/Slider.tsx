@@ -17,7 +17,7 @@ const Slider = () => {
   }, [])
 
   return (
-    <div className="flex mt-3">
+    <div className="flex mt-24">
       <div className=" text-red-400 bg-[#fafafa86] text-center ">
         <h1 className="text-4xl">Get the product that amazes you only here at Femuki Stores</h1>
       </div>

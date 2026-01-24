@@ -1,5 +1,6 @@
 
 
+import Footer from '../Main/Footer';
 import Latest from './Latest';
 import Navbar from './Navbar'
 import Slider from './Slider';
@@ -10,6 +11,7 @@ const Dashboard = () => {
       <Navbar/>
       <Slider/>
       <Latest/>
+      <Footer/>
     </div>
   )
 }

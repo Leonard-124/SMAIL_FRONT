@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
           <div className="flex gap-5 text-2xl font-light">
             <Link to="/product">Product</Link>
-            <Link to="/deloper-options">Developer Options</Link>
+            <Link to="/developer">Developer Options</Link>
             <Link to="/pricing">Pricing</Link>
             <Link to="/login">Login</Link>
             <Link to="/sign-up">Sign Up</Link>
