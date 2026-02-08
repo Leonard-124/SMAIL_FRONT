@@ -29,7 +29,7 @@ const Footer = () => {
             <a href="#" className="text-sm hover:text-accent transition-colors">
               Terms
             </a>
-            <a href="#" className="text-sm hover:text-accent transition-colors">
+            <a href="/contact" className="text-sm hover:text-accent transition-colors">
               Contact
             </a>
           </nav>

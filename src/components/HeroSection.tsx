@@ -4,7 +4,7 @@
 import { ArrowRight, Leaf } from "lucide-react";
 //import heroFarm from "@/assets/hero-farm.jpg";
 //import almoLogo from "@/assets/almo-logo.jpg";
-import Choco from "../assets/images/Choco.jpg"
+import rice_field from "../assets/images/rice_field.jpeg"
 //import guiness from "../assets/images/guiness.jpg"
 
 const HeroSection = () => {
@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={Choco}
+          src={rice_field}
           alt="Kenyan farm fields at sunset"
           className="w-full h-full object-cover"
         />

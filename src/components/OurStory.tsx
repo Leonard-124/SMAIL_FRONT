@@ -4,8 +4,8 @@
 import { ExternalLink } from "lucide-react";
 // import kenyanLandscape from "@/assets/kenyan-landscape.jpg";
 // import farmProduce from "@/assets/farm-produce.jpg";
-import pawpaw from "../assets/images/pawpaw.jpg"
-import robot from "../assets/images/robot.jpg"
+import rice from "../assets/images/rice.jpeg"
+import field from "../assets/images/field.jpeg"
 
 // const stats = [
 //   { value: "10+", label: "Years of Excellence" },
@@ -51,7 +51,7 @@ const OurStory = () => {
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={robot}
+                  src={rice}
                   alt="Fresh produce from Almo Farm"
                   className="w-full aspect-4/3 object-cover"
                 />
@@ -65,7 +65,7 @@ const OurStory = () => {
               {/* Secondary Image (offset) */}
               <div className="absolute -bottom-8 -left-8 w-2/3 rounded-xl overflow-hidden shadow-xl border-4 border-background hidden sm:block">
                 <img
-                  src={pawpaw}
+                  src={field}
                   alt="Kenyan landscape at sunset"
                   className="w-full aspect-video object-cover"
                 />
