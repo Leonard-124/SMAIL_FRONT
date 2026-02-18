@@ -4,8 +4,8 @@
 import { ExternalLink } from "lucide-react";
 // import kenyanLandscape from "@/assets/kenyan-landscape.jpg";
 // import farmProduce from "@/assets/farm-produce.jpg";
-import rice from "../assets/images/rice.jpeg"
-import field from "../assets/images/field.jpeg"
+import rice from "../../assets/images/rice.jpeg"
+import field from "../../assets/images/field.jpeg"
 
 // const stats = [
 //   { value: "10+", label: "Years of Excellence" },

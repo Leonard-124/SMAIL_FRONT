@@ -4,8 +4,7 @@
 import { ArrowRight, Leaf } from "lucide-react";
 //import heroFarm from "@/assets/hero-farm.jpg";
 //import almoLogo from "@/assets/almo-logo.jpg";
-import rice_field from "../assets/images/rice_field.jpeg"
-//import guiness from "../assets/images/guiness.jpg"
+import rice_field from "../../assets/images/rice_field.jpeg"
 
 const HeroSection = () => {
   return (
