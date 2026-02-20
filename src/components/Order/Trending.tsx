@@ -17,7 +17,7 @@ const Trending = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/v1/prodCat");
+        const res = await fetch(`${import.meta.env.VITE_SERVER_URL}/api/v1/prodCat`);
         if (!res.ok) throw new Error("HTTP error");
         const data: Product[] = await res.json();
 

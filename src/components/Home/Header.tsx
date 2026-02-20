@@ -5,9 +5,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Auth/Authcontext"
 
 const navLinks = [
-  { label: "About", href: "/about" },
+  { label: "About", href: "/#about" },
   { label: "Products", href: "/products" },
-  { label: "Why Us", href: "/why-us" },
+  { label: "Why Us", href: "/#why-us" },
 ];
 
 const Header = () => {
