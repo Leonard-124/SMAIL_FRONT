@@ -36,7 +36,7 @@ export class ErrorBoundary extends Component<Props, State> {
             <p className="text-gray-500 text-sm mb-8">
               We hit an unexpected error. Please refresh the page or go back to the home page.
             </p>
-            {process.env.NODE_ENV !== "production" && this.state.error && (
+            {import.meta.env.MODE !== "production" && this.state.error && (
               <pre className="text-left text-xs bg-red-50 border border-red-100 rounded-xl p-4 mb-6 text-red-600 overflow-auto max-h-32">
                 {this.state.error.message}
               </pre>
